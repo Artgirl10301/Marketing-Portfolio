@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gleimi De Jesus — Four Winds IT, Brought to Life</title>
+<meta name="description" content="Marketing and brand strategy work for Four Winds IT — collateral, campaigns, and a website case study.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Newsreader:ital,opsz@0,6..72;1,6..72&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top">Gleimi De Jesus</a>
+      <nav class="nav" aria-label="Section navigation">
+        <a href="#collateral" data-section="collateral"><span class="nav-idx">01</span>Collateral</a>
+        <a href="#gallery" data-section="gallery"><span class="nav-idx">02</span>Gallery</a>
+        <a href="#case-study" data-section="case-study"><span class="nav-idx">03</span>Case Study</a>
+      </nav>
+      <div class="nav-counter" aria-hidden="true"><span id="counterCurrent">00</span> / <span id="counterTotal">03</span></div>
+    </div>
+    <div class="header-progress" id="headerProgress"></div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-eyebrow">Marketing &amp; Brand Strategy Portfolio</div>
+    <h1 class="hero-title">Four Winds IT</h1>
+    <p class="hero-sub">Brought to Life</p>
+    <a href="#collateral" class="hero-scroll" aria-label="Scroll to collateral section">
+      <span>Scroll</span>
+      <svg width="14" height="20" viewBox="0 0 14 20" fill="none"><path d="M7 1v17M1 12l6 6 6-6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+
+  <!-- ============ COLLATERAL CAROUSEL ============ -->
+  <section class="section" id="collateral">
+    <div class="section-wrap">
+      <div class="section-head">
+        <div class="eyebrow"><span class="dot"></span>01 — Marketing Collateral</div>
+        <h2>Documents built to sell.</h2>
+        <p class="section-copy">One-pagers, sell sheets, and sales collateral designed for Four Winds IT's audience. Preview or download any piece.</p>
+      </div>
+
+      <div class="carousel" id="carousel" tabindex="0" aria-label="Marketing collateral carousel, use arrow keys to navigate">
+        <button class="carousel-arrow carousel-arrow--prev" id="prevBtn" aria-label="Previous document">
+          <svg width="10" height="16" viewBox="0 0 10 16" fill="none"><path d="M9 1L1 8l8 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+
+        <div class="carousel-track" id="carouselTrack"></div>
+
+        <button class="carousel-arrow carousel-arrow--next" id="nextBtn" aria-label="Next document">
+          <svg width="10" height="16" viewBox="0 0 10 16" fill="none"><path d="M1 1l8 7-8 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+
+      <div class="carousel-meta">
+        <div class="carousel-info">
+          <div class="carousel-index"><span id="carouselCurrent">01</span> / <span id="carouselTotal">05</span></div>
+          <div class="carousel-title" id="carouselTitle">—</div>
+          <div class="carousel-sub" id="carouselSub">—</div>
+        </div>
+        <div class="carousel-actions">
+          <button class="btn btn--outline" id="previewBtn">Preview</button>
+          <a class="btn btn--fill" id="downloadBtn" download>Download</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section section--alt" id="gallery">
+    <div class="section-wrap">
+      <div class="section-head">
+        <div class="eyebrow"><span class="dot"></span>02 — Social &amp; Rebrand</div>
+        <h2>The visual identity, everywhere it lived.</h2>
+        <p class="section-copy">Social posts, merch, and rebrand work. Click any piece to view it larger.</p>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ CASE STUDY ============ -->
+  <section class="section" id="case-study">
+    <div class="section-wrap">
+      <div class="case-study">
+        <div class="case-study-text">
+          <div class="eyebrow"><span class="dot"></span>03 — Inside Gleimi's Mind</div>
+          <h2>The Four Winds IT website facelift.</h2>
+          <p class="case-study-lede">
+            A full audit and rebuild of the company website — working across sales, leadership,
+            and engineering to take it from an outdated brochure site to something that actually
+            supports the funnel.
+          </p>
+          <ul class="case-study-points">
+            <li><span class="case-study-label">The problem</span>Dated design, unclear messaging, no mobile optimization, and a site that wasn't pulling its weight in lead generation.</li>
+            <li><span class="case-study-label">The approach</span>Stakeholder interviews across sales and leadership, a full content and UX audit, then a phased rebuild — design system first, page-by-page after.</li>
+            <li><span class="case-study-label">The result</span>A faster, mobile-first site with a consistent visual system and measurable lift in engagement.</li>
+          </ul>
+          <a href="assets/case-study/full-story-placeholder.pdf" class="btn btn--fill" id="fullStoryBtn" download>Full Story (PDF)</a>
+        </div>
+        <div class="case-study-image">
+          <img src="assets/case-study/website-facelift.jpg" alt="Four Winds IT website facelift case study">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="section-wrap footer-inner">
+      <span>Gleimi De Jesus — Marketing &amp; Brand Strategy</span>
+      <a href="mailto:you@example.com">you@example.com</a>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close preview">&times;</button>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
