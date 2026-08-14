@@ -4,7 +4,7 @@
 =================================================================== */
 
 const COLLATERAL = [
-  { file: "assets/collateral/Collateral-1.jpg", title: "Resource", sub: "Buyers Guide", tag: "Sales" },
+  { file: "assets/collateral/Collateral-1.pdf", title: "Resource", sub: "Buyers Guide", tag: "Sales" },
   { file: "assets/collateral/Collateral-2.jpg", title: "One-Pager", sub: "Service Overview", tag: "Sales" },
   { file: "assets/collateral/Collateral-3.jpg", title: "Resource", sub: "Document Template", tag: "Long form Content" },
   { file: "assets/collateral/Collateral-4.jpg", title: "Resource", sub: "Document Template", tag: "Long form Content" },
