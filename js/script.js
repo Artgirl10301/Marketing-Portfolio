@@ -4,11 +4,11 @@
 =================================================================== */
 
 const COLLATERAL = [
-  { file: "assets/collateral/collateral-1.jpg", title: "One-Pager", sub: "Service overview", tag: "Sales" },
-  { file: "assets/collateral/collateral-2.jpg", title: "Case Sheet", sub: "Client results", tag: "Proof" },
-  { file: "assets/collateral/collateral-3.jpg", title: "Sell Sheet", sub: "Product highlight", tag: "Sales" },
-  { file: "assets/collateral/collateral-4.jpg", title: "Battlecard", sub: "Competitive positioning", tag: "Enablement" },
-  { file: "assets/collateral/collateral-5.jpg", title: "Data Sheet", sub: "Technical specs", tag: "Technical" },
+  { file: "assets/collateral/Collateral-1.jpg", title: "One-Pager", sub: "Buyers Guide", tag: "Sales" },
+  { file: "assets/collateral/Collateral-2.jpg", title: "Case Sheet", sub: "Service Overview", tag: "Sales" },
+  { file: "assets/collateral/Collateral-3.jpg", title: "Sell Sheet", sub: "Document Template", tag: "Long form Content" },
+  { file: "assets/collateral/Collateral-4.jpg", title: "Battlecard", sub: "Document Template", tag: "Long form Content" },
+  { file: "assets/collateral/Collateral-5.jpg", title: "Data Sheet", sub: "Technical specs", tag: "Sales" },
 ];
 
 const GALLERY = [
