@@ -23,7 +23,7 @@ const GALLERY = [
   { file: "assets/gallery/gallery-5.png", tag: "Merch" },
   { file: "assets/gallery/gallery-6.jpg", tag: "Merch" },
   { file: "assets/gallery/gallery-7.jpg", tag: "Social" },
-  { file: "assets/gallery/gallery-8.jpg", tag: "Rebrand" },
+  { file: "assets/gallery/gallery-8.jpeg", tag: "Rebrand" },
   { file: "assets/gallery/gallery-9.jpg", tag: "Social" },
 ];
 
