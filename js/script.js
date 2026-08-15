@@ -17,8 +17,8 @@ const COLLATERAL = [
 
 const GALLERY = [
   { file: "assets/gallery/gallery-1.jpg", tag: "Co-Branding" },
-  { file: "assets/gallery/gallery-2.png", tag: "Social" },
-  { file: "assets/gallery/gallery-3.png", tag: "Social" },
+  { file: "assets/gallery/gallery-2.jpg", tag: "Social" },
+  { file: "assets/gallery/gallery-3.jpg", tag: "Social" },
   { file: "assets/gallery/gallery-4.png", tag: "Merch" },
   { file: "assets/gallery/gallery-5.png", tag: "Merch" },
   { file: "assets/gallery/gallery-6.jpg", tag: "Merch" },
