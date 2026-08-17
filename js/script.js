@@ -24,7 +24,7 @@ const GALLERY = [
   { file: "assets/gallery/gallery-6.jpg", tag: "Merch" },
   { file: "assets/gallery/gallery-7.jpg", tag: "Social" },
   { file: "assets/gallery/gallery-8.jpeg", tag: "Ad Space" },
-  { file: "assets/gallery/gallery-9.gif", tag: "Social" },
+  { file: "assets/gallery/gallery-9.gif", tag: "After effects Asset" },
 ];
 
 /* ===================================================================
